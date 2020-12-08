@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(45, 160, 83);
+    font-family: sans-serif;
+}
+h1 {
+    color: orange;
+    text-align: center;
+ }
+ h2 {
+     color: orangered;
+ }
+ h3 {
+     color: darkred;
+ }
+ h4 {
+     color: indigo;
+ }
+ h5 {
+     color: indigo;
+ }

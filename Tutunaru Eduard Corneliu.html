@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+
+        html {
+            box-sizing: border-box;
+        }
+
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit;
+        }
+
+        .column {
+            float: left;
+            width: 33.3%;
+            margin-bottom: 16px;
+            padding: 0 8px;
+        }
+
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            margin: 8px;
+        }
+
+        .about-section {
+            padding: 50px;
+            text-align: center;
+            background-color: #474e5d;
+            color: white;
+        }
+
+        .container {
+            padding: 0 16px;
+        }
+
+        .container::after,
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .title {
+            color: grey;
+        }
+
+        .button {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 8px;
+            color: white;
+            background-color: #000;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .button:hover {
+            background-color: #555;
+        }
+
+        @media screen and (max-width: 650px) {
+            .column {
+                width: 100%;
+                display: block;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="nav">
+        <a href="index.html">Acasa</a>
+        <a href="Familia Tutunaru si copii.html">Despe noi</a>
+        <a href="#">Contact</a>
+    </div>
+    <div class="about-section">
+
+        <h1>Tutunaru Eduard-Corneliu</h1>
+        </a>
+
+    </div>
+    <div>
+
+        <div class="column">
+            <div class="card">
+                <img src="Edi1.jpeg" alt="Edi1" style="width:100%">
+                <div class="container"> </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <o1>
+            <p>Mica caraterizare</p>
+            <u1>
+                <p>Sunt Tutunaru Eduard-Corneliu, nascut pe 17.01.1975.</p>
+                <p>Casatorit in 1997 cu Tutunaru Floriana-Madalina, tatal a doi copii, fata si baiat.</p>
+
+                <p>Absolventi ai Universitatii Transilvania din Brasov, Facultatea de Medicina Brasov, program de studiu
+                    - Asistent medical de laborator.</p>
+                <p>Absolvent al Liceului Industrial Nr. 1, Traian Vuia - Craiova, promotia 1990-1994</p>
+                <p>Absolvent al Scolii Postliceale Sanitare Craiova, promotia 1994-1997</p>
+                <p>Absolvent al Universsitatii din Craiova, Facultatea de Chimie, promotia 1996-2000</p>
+                <p>Absolvent al Universitatii Transilvania din Brasov, Facultatea de Medicina, Program de studiu
+                    'Asistent medical de laborator licentiat' - promotia 2016-2020</p>
+                <li>Sunt un om norocos din toate punctele de vedere: am o familie frumoasă, doi copii minunati, prieteni
+                    calzi și sinceri, colegi dedicați, capabili și buni coechipieri, fac lucrurile care îmi plac și îmi
+                    aduc satisfacții. Optimismul și pozitivismul sunt trăiri care mă însoțesc permanent în viața
+                    personală și în activitatea profesională, făcând din mine un om motivat și plin de speranță. Un
+                    avantaj incontestabil pentru cariera mea îl constituie faptul că am avut și am aproape oameni care
+                    m-au ajutat și mă ajută să evoluez, să îmi doresc mai mult și să nu renunț atunci când apar
+                    obstacole. </l1>
+                <li> Domeniile de activitate în care am căpătat experiență de-a lungul timpului sunt:</li>
+                <d1>
+                    <dd>sanatate în cadrul sectorului public și</dd>
+                    <dd>calculatoare</dd>
+                </d1>
+                <p>Aceste arii de activitate sunt în continuare în sfera mea de interes și încerc să-mi dezvolt constant
+                    competențele pentru a putea să diseminez în rândul celor interesați, informații care să îi sprijine
+                    în derularea propriilor activități.</p>
+                <li>Consider că următorul motto este cel mai potrivit pentru a evidenția poziția pe care o am și o voi
+                    avea întotdeauna în fața oamenilor pe care îi întâlnesc: „Valoarea unui om rezidă în ce dă el, nu în
+                    ceea ce este capabil să primească.” (Albert Einstein)
+                    Altfel spus, vă aștept cu drag la realizarile mele profesionale, în scopul bine definit de a
+                    împărtăși concepte, teorii, practici și idei care să ne susțină tuturor dezvoltarea profesională.
+                </li>
+            </u1>
+        </o1>
+    </div>
+    </div>
+    </div>
+    <table border="1">
+        <p>
+            <tr>
+                <td colspan='2'>Competente</td>
+                <td>Realizari</td>
+
+            <tr>
+                <td>Asistent medical generalist</td>
+                <td>Asistent medical de laborator</td>
+                <td rowspan='2'>Realizari de mini site-uri</td>
+            </tr>
+            <tr>
+                <td>Tratamente medicale dupa prescripti medicala</td>
+                <td>Recoltari medicale dupa indicatii medicale</td>
+            </tr>
+        </p>
+
+        </tr>
+    </table>
+    <form action="script.php" method="post" name="demo_form">
+        <fieldset>
+            <legend>Date personale</legend>
+            <label for="name">Nume:</label><br>
+            <input type="text" name="name" id="name"><br>
+
+            <label for="surname">Prenume:</label><br>
+            <input type="text" name="surname" id="surname"><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Contact</legend>
+            <label for="email">Email:</label><br>
+            <input type="text" name="email" id="email"><br>
+
+            <label for="phone">Phone:</label><br>
+            <input type="text" name="phone" id="phone">
+        </fieldset>
+        <fieldset>
+            <legend>Mesaj</legend>
+            <input type="text"><br>
+        </fieldset>
+        <fieldset>
+            <button class="button">Trimite</button>
+            <a href="mailto:eduard.tutunaru@yahoo.com"></a>
+            <form action="mailto: eduard.tutunaru@yahoo.com" method = "post" enctype="text / plain">
+            </forma>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
